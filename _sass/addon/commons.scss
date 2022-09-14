@@ -1449,16 +1449,16 @@ $sidebar-display: "sidebar-display";
   }
 
   .site-title {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     margin-left: 0 !important;
-    // color: cornsilk;
+
   }
 
   .site-subtitle {
     @include ml-mr(1rem);
 
     font-size: 90%;
-    // color: cornsilk;
+    
   }
 
   #main-wrapper {
