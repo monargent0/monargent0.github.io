@@ -13,7 +13,7 @@ pin: false
 
 ---
 
-## 1. GitBlog 만들기  
+## GitBlog 만들기  
 
 ### 1.1 GitHub에 Blog Repository 생성하기  
 깃 블로그를 만들기 위해서는 내 github에 blog 저장소를 만들어야 한다.  
@@ -65,7 +65,7 @@ tools/init.sh
 
 ---
 
-## 2. 로컬 환경 구축하기
+## 로컬 환경 구축하기
 
 ### 2.1 Ruby (jekyll) 설치하기 
 jekyll을 사용하기 위해서는 ruby 설치가 필수이다.   
@@ -122,11 +122,8 @@ bundle exec jekyll serve
     
 <blockquote class="prompt-info"><div><p>guthub.io에 반영되는 시간이 길어서 바로바로 변경된 점을 확인하기 위해서는 local에서 보는것이 편하다.</p></div></blockquote>
 
-
 ---
 
 ### 참고 블로그
 하얀눈길님 블로그 : [Jekyll Chirpy 테마 사용하여 블로그 만들기](https://www.irgroup.org/posts/jekyll-chirpy/)  
 안스LAB : [Github 블로그 시작하는 방법(로컬 설치 없이 쉽게 만들기)](https://ahnslab.com/21-how-to-start-github-blog/#3-%ED%85%8C%EB%A7%88-%EC%84%A0%ED%83%9D%ED%95%98%EA%B3%A0-%EB%B3%B5%EC%82%AC%ED%95%B4%EC%98%A4%EA%B8%B0)
-
-
