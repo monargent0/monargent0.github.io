@@ -14,6 +14,7 @@ pin: false
 ---
 
 ## 1. GitBlog 만들기  
+
 ### 1.1 GitHub에 Blog Repository 생성하기  
 
 깃 블로그를 만들기 위해서는 내 github에 blog 저장소를 만들어야 한다.  
@@ -66,6 +67,7 @@ tools/init.sh
 ---
 
 ## 2. 로컬 환경 구축하기
+
 ### 2.1 Ruby (jekyll) 설치하기 
  
 jekyll을 사용하기 위해서는 ruby 설치가 필수이다.   
