@@ -12,6 +12,7 @@ pin: false
 > 개발 환경 : **MacOS , M1**
 
 ---
+
 ## 1. GitBlog 만들기  
 ### 1.1 GitHub에 Blog Repository 생성하기  
 
@@ -125,7 +126,7 @@ bundle exec jekyll serve
 ---
 
 ### 참고 블로그
-하얀눈길님 블로그 : [Jekyll Chirpy 테마 사용하여 블로그 만들기](https://www.irgroup.org/posts/jekyll-chirpy/)
+하얀눈길님 블로그 : [Jekyll Chirpy 테마 사용하여 블로그 만들기](https://www.irgroup.org/posts/jekyll-chirpy/)  
 안스LAB : [Github 블로그 시작하는 방법(로컬 설치 없이 쉽게 만들기)](https://ahnslab.com/21-how-to-start-github-blog/#3-%ED%85%8C%EB%A7%88-%EC%84%A0%ED%83%9D%ED%95%98%EA%B3%A0-%EB%B3%B5%EC%82%AC%ED%95%B4%EC%98%A4%EA%B8%B0)
 
 
