@@ -3,7 +3,7 @@ title: 나만의 블로그 GitBlog 만들기
 author: monargent0
 published: true
 categories: [GitBlog] 
-tags: [gitblog ] # 소문자
+tags: [gitblog , tutorial] # 소문자
 pin: false
 ---
 
