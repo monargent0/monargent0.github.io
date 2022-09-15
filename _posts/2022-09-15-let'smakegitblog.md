@@ -7,7 +7,8 @@ tags: [gitblog , tutorial] # 소문자
 pin: false
 ---
 
-*개발 블로그를 만들어 보기로 결심하면서 첫번째로 나의 깃블로그 생성과정을 기록해보려고 한다.*
+*개발 블로그를 만들어 보기로 결심하면서 첫번째로 나의 깃블로그 생성과정을 기록해보려고 합니다.*  
+*튜토리얼을 작성하는 목적이 아닌 블로그 개발 기록을 남기기 위한 목적으로 많은 내용이 요약되어 있을 수 있습니다.*
 
 > 개발 환경 : **MacOS , M1**
 
@@ -15,7 +16,7 @@ pin: false
 
 ## GitBlog 만들기  
 
-### 1.1 GitHub에 Blog Repository 생성하기  
+### GitHub에 Blog Repository 생성하기  
 깃 블로그를 만들기 위해서는 내 github에 blog 저장소를 만들어야 한다.  
 이런 저런 방법이 다양하게 있지만 가장 간단해 보이는 *jekyll 테마 repository를 fork 해오는 방식으로 생성했다!*  
 
@@ -26,7 +27,7 @@ fork한 깃블로그 repository를 로컬로 clone 해둔다.
 
 <blockquote class="prompt-info"><div><p>저장소의 이름은 꼭 gitusername.github.io 로 생성/변경한다!</p></div></blockquote>
 
-### 1.2 Jekyll Theme 고르기
+### Jekyll Theme 고르기
 jeykll 테마를 모아둔 사이트에서 원하는 테마를 고르면 된다.  
 "jekyll 테마 추천" 이나 "jekyll 테마 사이트"로 검색하면 다양한 테마를 찾아볼 수 있다.
 
@@ -38,22 +39,22 @@ jeykll 테마를 모아둔 사이트에서 원하는 테마를 고르면 된다.
   
 [Chipy 미리보기 사이트](https://chirpy.cotes.page)
 
-### 1.3 GitBlog 저장소 기본 세팅하기  
+### GitBlog 저장소 기본 세팅하기  
 
-#### 1.3.1 branch 변경하기
+#### 1. branch 변경하기
 깃블로그가 정상적으로 만들어졌다면 자동으로 gh-pages 브렌치가 생긴다.  
 Gitblog 저장소의 Settings - Pages - Build and deployment에서 Branch를 gh-pages로 변경하고 save한다. 
 
 [GitHub Docs](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
 
-#### 1.3.2 gitignore 수정하기
+#### 2. gitignore 수정하기
 jekyll을 사용하면 생기는 Genfile이 git에 올라가면 에러가 생길수도 있다고 한다.  
 따라서 미리 Gemfile을 gitignore에 추가해두자!  
 ```  
 Gemfile.lock   
 ```
 
-#### 1.3.3 Chirpy 테마 초기화
+#### 3. Chirpy 테마 초기화
 테마를 fork하면 테마 자체에 설명을 위한 파일들도 같이 있기 때문에 초기화를 해준다.  
 터미널 위치는 깃블로그 저장소
 ```shell
@@ -67,7 +68,7 @@ tools/init.sh
 
 ## 로컬 환경 구축하기
 
-### 2.1 Ruby (jekyll) 설치하기 
+### Ruby (jekyll) 설치하기 
 jekyll을 사용하기 위해서는 ruby 설치가 필수이다.   
 macOS에는 이미 Ruby가 깔려있으므로 생략하고 jekyll과 bundler을 설치한다.
 
@@ -77,7 +78,7 @@ macOS에는 이미 Ruby가 깔려있으므로 생략하고 jekyll과 bundler을 
 <blockquote class="prompt-tip"><div><p>혹시 어떤 쉘 방식을 사용하는지 모른다면 터미널에서 확인!  <code class="language-plaintext highlighter-rouge">echo $SHELL</code>
 </p></div></blockquote>
 
-### 2.2 Bundler 설치하기 
+### Bundler 설치하기 
 jekyll에서 제공하는 대로 설치했다면 다음 명령으로 설치하면된다.
 터미널은 깃블로그 저장소로 이동
 ```shell
@@ -90,7 +91,7 @@ gem install jekyll bundler
 ```
 참고 : <https://jekyllrb.com/docs/>
 
-### 2.3 Jekyll 로컬 서버 실행하기 
+### Jekyll 로컬 서버 실행하기 
 터미널에서 cd로 깃블로그 저장소로 이동 후 다음 명령을 실행한다.  
 ```shell
 jekyll serve
