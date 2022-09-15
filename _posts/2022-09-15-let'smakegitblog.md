@@ -13,10 +13,9 @@ pin: false
 
 ---
 
-## 1. GitBlog 만들기  
+## GitBlog 만들기  
 
 ### 1.1 GitHub에 Blog Repository 생성하기  
-
 깃 블로그를 만들기 위해서는 내 github에 blog 저장소를 만들어야 한다.  
 이런 저런 방법이 다양하게 있지만 가장 간단해 보이는 *jekyll 테마 repository를 fork 해오는 방식으로 생성했다!*  
 
@@ -28,7 +27,6 @@ fork한 깃블로그 repository를 로컬로 clone 해둔다.
 <blockquote class="prompt-info"><div><p>저장소의 이름은 꼭 gitusername.github.io 로 생성/변경한다!</p></div></blockquote>
 
 ### 1.2 Jekyll Theme 고르기
-
 jeykll 테마를 모아둔 사이트에서 원하는 테마를 고르면 된다.  
 "jekyll 테마 추천" 이나 "jekyll 테마 사이트"로 검색하면 다양한 테마를 찾아볼 수 있다.
 
@@ -40,7 +38,8 @@ jeykll 테마를 모아둔 사이트에서 원하는 테마를 고르면 된다.
   
 [Chipy 미리보기 사이트](https://chirpy.cotes.page)
 
-### 1.3 GitBlog 저장소 기본 세팅하기   
+### 1.3 GitBlog 저장소 기본 세팅하기  
+
 #### 1.3.1 branch 변경하기
 깃블로그가 정상적으로 만들어졌다면 자동으로 gh-pages 브렌치가 생긴다.  
 Gitblog 저장소의 Settings - Pages - Build and deployment에서 Branch를 gh-pages로 변경하고 save한다. 
@@ -66,10 +65,9 @@ tools/init.sh
 
 ---
 
-## 2. 로컬 환경 구축하기
+## 로컬 환경 구축하기
 
 ### 2.1 Ruby (jekyll) 설치하기 
- 
 jekyll을 사용하기 위해서는 ruby 설치가 필수이다.   
 macOS에는 이미 Ruby가 깔려있으므로 생략하고 jekyll과 bundler을 설치한다.
 
@@ -80,7 +78,6 @@ macOS에는 이미 Ruby가 깔려있으므로 생략하고 jekyll과 bundler을 
 </p></div></blockquote>
 
 ### 2.2 Bundler 설치하기 
-
 jekyll에서 제공하는 대로 설치했다면 다음 명령으로 설치하면된다.
 터미널은 깃블로그 저장소로 이동
 ```shell
@@ -94,7 +91,6 @@ gem install jekyll bundler
 참고 : <https://jekyllrb.com/docs/>
 
 ### 2.3 Jekyll 로컬 서버 실행하기 
-
 터미널에서 cd로 깃블로그 저장소로 이동 후 다음 명령을 실행한다.  
 ```shell
 jekyll serve
