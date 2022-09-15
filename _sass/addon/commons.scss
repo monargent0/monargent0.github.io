@@ -701,7 +701,7 @@ $sidebar-display: "sidebar-display";
       }
     }
   } /* #avatar */
-
+// ---------------------------------------------------------사이드바 글자색 변경
   .site-title {
     a {
       @extend %clickable-transition;
@@ -709,12 +709,14 @@ $sidebar-display: "sidebar-display";
       font-weight: 900;
       font-size: 1.5rem;
       letter-spacing: 0.5px;
-      color: rgba(134, 133, 133, 99%);
+      // color: rgba(134, 133, 133, 99%);
+      color: rgb(255, 248, 220); // 제목 글자 색상 변경 ***
     }
   }
 
   .site-subtitle {
     font-size: 95%;
+    font-weight: 600;
     color: var(--sidebar-muted-color);
     line-height: 1.2rem;
     word-spacing: 1px;
@@ -745,6 +747,7 @@ $sidebar-display: "sidebar-display";
 
     &:not(.active) > a {
       @extend %clickable-transition;
+      color: var(--sidebar-muted-color); 
     }
   }
 
@@ -1456,7 +1459,6 @@ $sidebar-display: "sidebar-display";
 
   .site-subtitle {
     @include ml-mr(1rem);
-
     font-size: 90%;
     
   }
